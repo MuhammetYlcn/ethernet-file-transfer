@@ -22,8 +22,10 @@ Uygulama, verilerin eksiksiz ve hatasız iletilmesi amacıyla güvenilir **TCP S
 * **Ağ Programlama:** Python `socket` modülü (TCP Protokolü)
 * **Dosya İşlemleri:** `shutil`, `zipfile`, `os`
 
-## 🔧 Kurulum ve Çalıştırma (Kaynak Kod)
+## 📦 Standalone (.exe) Sürümü
+Projeyi kod çalıştırmadan doğrudan kullanmak isterseniz, PyInstaller ile paketlenmiş güncel `.exe` sürümünü **Releases** sekmesinden indirebilirsiniz. Windows Güvenlik Duvarı iznini vermeyi unutmayın.
 
+## 🔧 Kurulum ve Çalıştırma (Kaynak Kod)
 ### Gereksinimler
 Bilgisayarınızda Python 3.x sürümünün kurulu olduğundan emin olun. Ardından gerekli arayüz kütüphanesini yükleyin:
 ```bash
